@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santiago Morales Arango</title>
+    <script src="https://kit.fontawesome.com/932edb6c1c.js" crossorigin="anonymous"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Quicksand&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header>
+        <i class="fa-solid fa-file-code fa-2xl"></i>
+        
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+     
+    </header>
+
+    <main>
+        <section id="inicio">
+            <img src="https://media.licdn.com/dms/image/C4D03AQHkGmeZhvckRQ/profile-displayphoto-shrink_400_400/0/1658854848213?e=1689811200&v=beta&t=iB2On5Bel0_UtMMec3xpZ9QOj9Zrd2_5sNlGG6CJ9n4" alt="Santiago Morales" id="mi-id">
+
+            <h1>¡Hola! Soy Santiago</h1>
+            
+            <article> 
+                <p><br>Soy Santiago Morales, maestro en filosofía por la Universidad Nacional Autónoma de México (UNAM). Mi formación académica me ha llevado a investigar sobre la cognición humana y en particular sobre cómo es que la mente humana opera o funciona, cómo está compuesta y cómo ha evolucionado. He sido partidario de un grupo de teorías que caracterizan la mente humana como un sistema complejo de procesamiento de información. De manera muy resumida podríamos decir que el funcionamiento de la mente humana puede entenderse como análogo a lo que hace una computadora. Esto es, una computadora recibe cierto tipo de códigos de entrada (inputs) y entrega otros códigos de salida (outputs). La información que está así estructurada en forma de códigos cuenta con una sintaxis particular, esto es, un tipo de organización particular que hace que pueda ser leída por cualquier computadora. Así pues, esta idea de que la mente humana opera a partir de piezas de información o códigos es la base de lo que sostiene la teoría computacional de la mente. (Puedes hacerte una idea de lo que dice la teoría computacional de la mente visitando la entrada de la enciclopedia Stanford, <a style="color: blueviolet;" href="https://plato.stanford.edu/entries/computational-mind/">sólo haz click aquí</a>)<br>  
+                <br>En cuanto a mi experiencia profesional, he sido profesor de filosofía, de idiomas (inglés y español) y he coordinado también procesos de escritura académica y corrección de estilo.<br>            
+                <br>Recientemente, he iniciado un nuevo camino profesional como desarrollador web Front end. En esta nueva senda he recibido el apoyo de Código Pa'lante, una organización con iniciativas de profesionalización en el desarrollo web para migrantes de América Latina.<br></p>
+            
+            </article>              
+        </section>
+        <section>
+            <button onclick="window.open('cv.pdf', '_blank')" >Descargar mi CV</button>
+        </section>
+
+    </main>
+    <footer>
+        <section id="contacto">
+        <h2>¡Hablemos!</h2>
+        <section>
+        <section class="sec_form">
+            <form id="contact-form" action="procesar.php" method="GET">
+            <div class="form-group">
+                <label for="name">Nombre: </label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Correo electrónico: </label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Teléfono: </label>
+                <input type="tel" id="phone" name="phone">
+            </div>
+            <div class="form-group">
+                <label for="message">Mensaje: </label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+
+        </section>
+
+        </section>
+        <h3>Aquí encontrarás mi información de contacto</h3>
+        <a href="https://github.com/santiagom-dev" target="_blank">
+            <img src="img/github.png" alt="Github" class="contact-icons">
+        </a>
+        <a href="mailto:santiagomoralesarango@outlook.com">
+            <img src="img/mail.png" alt="Correo" class="contact-icons">
+        </a>
+        <a href="https://www.linkedin.com/in/santiago-morales-02582b172/" target="_blank">
+            <img src="img/linkedin.png" alt="LinkedIn" class="contact-icons">
+        </a>
+    </section>
+
+        <section>
+            <h4>Código Latam</h4>
+
+        </section>
+        
+
+       
+    </footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

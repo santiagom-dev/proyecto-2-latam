@@ -1,0 +1,166 @@
+/* En este archivo escriban su CSS */
+
+/* Fonts */
+/* Importar aquí la font */
+
+
+
+/* Aquí les dejamos como ayuda este "reset" en el cual ajustamos algunas propiedades
+*  cuyos valores asigna por defecto el navegador.
+*/
+
+/* Reset */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* Para que el scrolleo en la one page sea suave */
+    scroll-behavior: smooth;
+}
+
+/* Para quitar los puntos a los items de listas */
+ul {
+    list-style: none;
+}
+
+/* Para que los enlaces hereden el color de texto y no tengan subrayado */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Este max-width es para que el contenido no se "estire" demasiado hacia los costados y
+*  el margin: auto; para tenerlo centrado fácilmente ;)
+*/
+main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+body {
+    background-color: #f1e4ea;
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Quicksand', sans-serif;;
+    color: rgb(50, 51, 51);
+    box-sizing: border-box;
+}
+header {
+    background-color: rgb(244, 155, 138);
+    padding: 2%;
+}
+ul li {
+   font-size: 130%;
+   font-weight: bold;
+    margin-bottom: 4%;
+    display: inline-block;
+    margin-inline-end: 20%;
+    margin-inline-start: 20%;
+  }
+  #mi-icon {
+    max-width: 9%;
+    display: inline-flex;
+    margin-left: auto;
+
+  }
+#mi-id {
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 23%;
+    margin-top: 5%;
+}
+h1 {
+    text-align: center;
+    margin-top: 5%;
+}
+article {
+    text-align: justify;
+    text-indent: 1%;
+    line-height: 1.7;
+    margin-top: 1%;
+    margin-bottom: 4%;
+    font-size: 100%;
+}
+
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 100%;
+    border-radius: 5%;
+    cursor: pointer;
+    margin-left: auto;
+    margin-top: 2%;
+}
+
+h2 {
+    margin-top: 15%;
+    margin-bottom: 0px;
+    text-align: center;
+}
+h3 {
+    margin-top: 3%;
+    text-align: center;
+}
+.sec_form {
+    margin: 8%;
+    margin-top: 2%;
+    line-height: 2;
+    border: black;
+}
+
+h4 {
+    margin-top: 3%;
+    text-align: center;
+    background-color: rgb(244, 155, 138);
+    padding: 10px
+}
+.contact-icons {
+    max-width: 100%;
+    width: 7%;
+    margin-left: 20%;
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+
+@media (max-width: 768px) {
+    
+    
+    article {
+        margin: 8%;
+
+    }
+    button {
+        margin-left: 8%;
+    }
+
+   nav {
+    width: 100%;
+    height: 100%;
+   }
+
+   .fa-solid {
+    display: none
+   }
+
+   h1 {
+    margin-bottom: 0%;
+   }
+
+   article {
+    margin-top: 0%;
+   }
+
+   .contact-icons {
+    margin-top: 10%;
+   }
+
+}
