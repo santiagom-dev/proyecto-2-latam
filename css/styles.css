@@ -38,10 +38,10 @@ main {
 }
 
 body {
-    background-color: #f1e4ea;
+    background: #f1e4ea;
     font-family: 'Montserrat', sans-serif;
 
-    font-family: 'Quicksand', sans-serif;;
+    font-family: 'Quicksand', sans-serif;;    
     color: rgb(50, 51, 51);
     box-sizing: border-box;
 }
@@ -50,12 +50,22 @@ header {
     padding: 2%;
 }
 
+#toggle-dark-mode {
+    color:rgb(50, 51, 51);
+    background-color: rgb(244, 155, 138);
+    float: right;
+    font-size: 38px;
+    margin-top: 5px;
+}
+
 .icono {
     float: left;
     display: block;
-    margin-top: 30px;
+    margin-top: 20px;
+    font-size: 18px;
     
 }
+
 .navigation {
     display: flex;
     justify-content: center;

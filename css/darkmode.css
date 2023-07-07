@@ -1,0 +1,29 @@
+body {
+    background: #515151;
+  
+    color: rgb(240, 243, 243);
+}
+
+#toggle-dark-mode {
+    color: rgb(240, 244, 244);
+    background-color: rgb(63, 62, 62);
+    font-size: 38px;
+    margin-top: 5px;
+}
+
+header {
+    background-color: rgb(63, 62, 62);
+}
+
+.icono {
+   color: #fff;
+}
+
+button {
+    background-color: #adb2ad;
+     color: rgb(25, 24, 24);
+}
+
+h4 {
+     background-color: rgb(146, 144, 144);
+}
