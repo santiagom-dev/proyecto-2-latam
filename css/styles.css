@@ -9,6 +9,27 @@
 *  cuyos valores asigna por defecto el navegador.
 */
 
+:root {
+    --background-color-light: #f1e4ea;
+    --text-color-light: rgb(50, 51, 51);
+    
+    --background-color-dark: #515151;
+    --text-color-dark: rgb(240, 243, 243);
+
+    }
+
+body {
+        background-color: var(--background-color-light);
+        color: var(--text-color-light);
+      }
+
+body {
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Quicksand', sans-serif;; 
+    box-sizing: border-box;
+}
+
 /* Reset */
 *{
     box-sizing: border-box;
@@ -37,32 +58,21 @@ main {
     margin: auto;
 }
 
-body {
-    background: #f1e4ea;
-    font-family: 'Montserrat', sans-serif;
-
-    font-family: 'Quicksand', sans-serif;;    
-    color: rgb(50, 51, 51);
-    box-sizing: border-box;
-}
 header {
     background-color: rgb(244, 155, 138);
     padding: 2%;
 }
 
-#toggle-dark-mode {
-    color:rgb(50, 51, 51);
-    background-color: rgb(244, 155, 138);
+.right-position {
     float: right;
-    font-size: 38px;
-    margin-top: 5px;
+    margin-right: 10px; 
 }
 
 .icono {
     float: left;
     display: block;
-    margin-top: 20px;
-    font-size: 18px;
+    margin-top: 40px;
+    font-size: 20px;
     
 }
 
@@ -70,6 +80,7 @@ header {
     display: flex;
     justify-content: center;
 }
+
 
 .menu {
     display: flex;
@@ -100,7 +111,16 @@ header {
     box-shadow: 0 -5px 0px #fff inset, 500px 0 0 rgba(255, 255, 255, 0.03);
 }
 
- 
+#dark-mode-button {
+    border-radius: 100px;
+    height: 60px;
+    width: 90px;
+    border-radius: 70px;
+    background-color: #fff;
+    color: #515151;
+    font-size: 30px;
+}
+
 #mi-id {
     border-radius: 50%;
     max-width: 100%;
@@ -125,7 +145,7 @@ article {
 }
 
 button {
-    background-color: #4CAF50;
+    background-color: #7b7d7b;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -158,8 +178,10 @@ h3 {
 h4 {
     margin-top: 3%;
     text-align: center;
-    background-color: rgb(244, 155, 138);
     padding: 10px
+}
+.pie-pagina {
+    background-color: rgb(244, 155, 138);
 }
 .contact-icons {
     max-width: 100%;
@@ -201,4 +223,27 @@ h4 {
     margin-top: 10%;
    }
 
+
+
 }
+
+
+      
+/* Estilos adicionales para el modo oscuro */
+body.dark-mode {
+        background-color: var(--background-color-dark);
+        color: var(--text-color-dark);
+      }
+
+body.dark-mode header {
+        background-color: rgb(63, 62, 62);
+    }
+    
+.icono.dark-mode {
+       color: #fff;
+    }
+    
+body.dark-mode h4 {
+         background-color: rgb(146, 144, 144);
+    }
+    
